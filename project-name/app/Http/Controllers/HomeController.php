@@ -33,7 +33,7 @@ class HomeController extends Controller
             $userChannels = User::with('channels')->get();
             $channelUser = $userChannels[0]['relations']['channels']->channels;
             $channels_object = json_decode($channelUser);
-            $channels = $channels_object->channels;
+            $channels = (isset($channels_object->channels))?$channels_object->channels:'';
 
             $slackUsers = User::select('id','name','email','photo_url')->where([
                 ['provider', '=', 'slack'],
