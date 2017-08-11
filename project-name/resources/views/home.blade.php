@@ -23,7 +23,7 @@
     <div class="container">
         <div class="container">
             <div class="row">
-                @if($channels)
+                @if(isset($channels))
                 <div class="col-md-4">
                     <h2>My Cannels</h2>
                     <h3>Total Number  <span class="badge badge-success">{{ count($channels) }}</span></h3>

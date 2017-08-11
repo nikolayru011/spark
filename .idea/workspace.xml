@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3eab547a-c027-49ae-81ab-0adbd2b2f6e1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-name/app/Http/Controllers/HomeController.php" afterPath="$PROJECT_DIR$/project-name/app/Http/Controllers/HomeController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-name/resources/views/home.blade.php" afterPath="$PROJECT_DIR$/project-name/resources/views/home.blade.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -66,17 +66,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project-name/resources/views/home.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
-              <folding />
+            <state relative-caret-position="170">
+              <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+              <folding>
+                <marker date="1502463542245" expanded="true" signature="3482:4099" ph="..." />
+                <marker date="1502463542245" expanded="true" signature="3493:4098" ph="..." />
+                <marker date="1502463542245" expanded="true" signature="3528:4091" ph="..." />
+                <marker date="1502463542245" expanded="true" signature="3539:4078" ph="..." />
+                <marker date="1502463542245" expanded="true" signature="3947:4064" ph="..." />
+                <marker date="1502463542245" expanded="true" signature="3982:4046" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project-name/app/Http/Controllers/HomeController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
@@ -105,8 +112,8 @@
         <option value="$PROJECT_DIR$/project-name/resources/views/vendor/spark/layouts/blade/app.blade.php" />
         <option value="$PROJECT_DIR$/project-name/spark/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/project-name/resources/views/vendor/spark/layouts/app.blade.php" />
-        <option value="$PROJECT_DIR$/project-name/resources/views/home.blade.php" />
         <option value="$PROJECT_DIR$/project-name/app/Http/Controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/project-name/resources/views/home.blade.php" />
       </list>
     </option>
   </component>
@@ -352,12 +359,12 @@
       <option name="presentableId" value="Default" />
       <updated>1502351061836</updated>
       <workItem from="1502351064307" duration="1199000" />
-      <workItem from="1502460114809" duration="3243000" />
+      <workItem from="1502460114809" duration="3428000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4442000" />
+    <option name="totallyTimeSpent" value="4627000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -369,7 +376,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25718608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -432,7 +439,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1502463542245" expanded="true" signature="3482:4099" ph="..." />
+            <marker date="1502463542245" expanded="true" signature="3493:4098" ph="..." />
+            <marker date="1502463542245" expanded="true" signature="3528:4091" ph="..." />
+            <marker date="1502463542245" expanded="true" signature="3539:4078" ph="..." />
+            <marker date="1502463542245" expanded="true" signature="3947:4064" ph="..." />
+            <marker date="1502463542245" expanded="true" signature="3982:4046" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -589,19 +603,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project-name/resources/views/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project-name/app/Http/Controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="43" column="54" lean-forward="true" selection-start-line="43" selection-start-column="54" selection-end-line="43" selection-end-column="54" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-name/resources/views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <folding>
+            <marker date="1502463542245" expanded="true" signature="3482:4099" ph="..." />
+            <marker date="1502463542245" expanded="true" signature="3493:4098" ph="..." />
+            <marker date="1502463542245" expanded="true" signature="3528:4091" ph="..." />
+            <marker date="1502463542245" expanded="true" signature="3539:4078" ph="..." />
+            <marker date="1502463542245" expanded="true" signature="3947:4064" ph="..." />
+            <marker date="1502463542245" expanded="true" signature="3982:4046" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
