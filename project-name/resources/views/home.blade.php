@@ -19,10 +19,11 @@
 </home>
 
 
-@if(isset($channels) || isset($slackUserCount) || isset($slackUsers))
+@if(isset($slackUserCount) || isset($slackUsers))
     <div class="container">
         <div class="container">
             <div class="row">
+                @if($channels)
                 <div class="col-md-4">
                     <h2>My Cannels</h2>
                     <h3>Total Number  <span class="badge badge-success">{{ count($channels) }}</span></h3>
@@ -36,7 +37,7 @@
                         </ul>
                     </div>
                 </div>
-
+                @endif
                 <div class="col-md-5">
                     <h2>Slack Users</h2>
                     <h3>Users Count  <span class="badge badge-success">{{ $slackUserCount }}</span></h3>

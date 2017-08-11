@@ -40,7 +40,14 @@ class HomeController extends Controller
                 ['id', '<>',$user_id]
             ])->get();
             $slackUserCount = count($slackUsers);
-            return view('home',compact('slackUsers'),compact('slackUserCount'))->with('channels',$channels);
+
+            if(empty($channels) || $channels == null){
+                return view('home',compact('slackUsers'),compact('slackUserCount'));
+            }else{
+                return view('home',compact('slackUsers'),compact('slackUserCount'))->with('channels',$channels);
+            }
+
+
         }else{
             return view('home');
         }
